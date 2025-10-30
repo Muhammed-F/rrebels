@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RRΞBΣLZ - Premium Streetwear & Rebellion</title>
+    <meta name="description" content="RRΞBΣLZ - Discover bold, rebellious streetwear for the modern youth culture. Shop premium hoodies, t-shirts, and pants that define your identity.">
+    <meta property="og:title" content="RRΞBΣLZ - Premium Streetwear & Rebellion">
+    <meta property="og:description" content="Bold streetwear for rebels. Shop premium hoodies, t-shirts, and pants.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" data-testid="link-logo">
+                <img src="images/logo (1)_1761831729479.png" alt="RRΞBΣLZ Logo - Premium Streetwear Wax Seal">
+                <span>RR<span class="accent">Ξ</span>B<span class="accent">Σ</span>LZ</span>
+            </a>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="#home" data-testid="link-home">Home</a>
+                <a href="#shop" data-testid="link-shop">Shop</a>
+                <a href="#about" data-testid="link-about">About</a>
+                <a href="#contact" data-testid="link-contact">Contact</a>
+            </div>
+            
+            <button class="menu-toggle" id="menuToggle" data-testid="button-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu" data-testid="mobile-menu">
+            <a href="#home" data-testid="mobile-link-home">Home</a>
+            <a href="#shop" data-testid="mobile-link-shop">Shop</a>
+            <a href="#about" data-testid="mobile-link-about">About</a>
+            <a href="#contact" data-testid="mobile-link-contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section" data-testid="section-hero">
+        <div class="hero-background">
+            <img src="images/generated_images/Dark_urban_hero_background_50c1780c.png" alt="Urban street background">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title" data-testid="text-hero-title">DEFY THE ORDINARY</h1>
+            <p class="hero-subtitle" data-testid="text-hero-subtitle">Premium streetwear for rebels and visionaries</p>
+            <button class="btn btn-primary" onclick="scrollToSection('shop')" data-testid="button-shop-now">Shop Now</button>
+        </div>
+        
+        <button class="scroll-indicator" onclick="scrollToSection('shop')" data-testid="button-scroll-indicator" aria-label="Scroll to shop section">
+            <i class="fas fa-arrow-down"></i>
+        </button>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop-section" data-testid="section-shop">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-testid="text-shop-title">SHOP COLLECTION</h2>
+                <p class="section-subtitle" data-testid="text-shop-subtitle">Curated streetwear pieces that define your rebellious spirit</p>
+            </div>
+            
+            <div class="filter-buttons" data-testid="filter-buttons">
+                <button class="filter-btn active" data-filter="all" data-testid="button-filter-all">All</button>
+                <button class="filter-btn" data-filter="hoodies" data-testid="button-filter-hoodies">Hoodies</button>
+                <button class="filter-btn" data-filter="t-shirts" data-testid="button-filter-t-shirts">T-Shirts</button>
+                <button class="filter-btn" data-filter="pants" data-testid="button-filter-pants">Pants</button>
+            </div>
+            
+            <div class="products-grid" id="productsGrid"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section" data-testid="section-about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="images/generated_images/Streetwear_lifestyle_brand_image_c91ea8cb.png" alt="RRΞBΣLZ brand lifestyle - urban streetwear culture" data-testid="img-about-brand">
+                </div>
+                
+                <div class="about-content">
+                    <h2 class="section-title" data-testid="text-about-title">ABOUT RRΞBΣLZ</h2>
+                    
+                    <p data-testid="text-about-p1">
+                        RRΞBΣLZ isn't just a brand—it's a movement. Born from the streets and forged in rebellion, we create streetwear that speaks to the fearless, the creative, and the unapologetically authentic.
+                    </p>
+                    
+                    <p data-testid="text-about-p2">
+                        We design for the modern youth who refuse to blend in. Each piece in our collection is crafted with premium materials and bold aesthetics that challenge the status quo. From oversized hoodies to tactical cargo pants, every item carries the seal of rebellion.
+                    </p>
+                    
+                    <p data-testid="text-about-p3">
+                        Our signature wax seal represents authenticity in a world of copies. When you wear RRΞBΣLZ, you're not just wearing clothes—you're making a statement. You're joining a community of visionaries who dare to defy the ordinary.
+                    </p>
+                    
+                    <blockquote class="about-quote">
+                        <p data-testid="text-about-quote">"Wear the seal. Defy the ordinary."</p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section" data-testid="section-contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-testid="text-contact-title">GET IN TOUCH</h2>
+                <p class="section-subtitle" data-testid="text-contact-subtitle">Have questions? Want to collaborate? We're here to listen.</p>
+            </div>
+            
+            <form id="contactForm" class="contact-form" data-testid="form-contact">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" data-testid="input-name">
+                    <span class="error-message" id="nameError" data-testid="error-name"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com" data-testid="input-email">
+                    <span class="error-message" id="emailError" data-testid="error-email"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Tell us what's on your mind..." data-testid="input-message"></textarea>
+                    <span class="error-message" id="messageError" data-testid="error-message"></span>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block" data-testid="button-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" data-testid="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/logo (1)_1761831729479.png" alt="RRΞBΣLZ Logo">
+                        <span>RR<span class="accent">Ξ</span>B<span class="accent">Σ</span>LZ</span>
+                    </div>
+                    <p data-testid="text-footer-tagline">Premium streetwear for rebels and visionaries. Defy the ordinary.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 data-testid="text-quick-links">Quick Links</h3>
+                    <ul>
+                        <li><a href="#home" data-testid="link-footer-home">Home</a></li>
+                        <li><a href="#shop" data-testid="link-footer-shop">Shop</a></li>
+                        <li><a href="#about" data-testid="link-footer-about">About</a></li>
+                        <li><a href="#contact" data-testid="link-footer-contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3 data-testid="text-connect">Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" data-testid="link-social-instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok" data-testid="link-social-tiktok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" data-testid="link-social-twitter">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-testid="text-copyright">© <span id="currentYear"></span> RRΞBΣLZ. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
