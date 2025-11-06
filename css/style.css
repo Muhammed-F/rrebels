@@ -701,4 +701,13 @@ h1, h2, h3, h4, h5, h6 {
     .filter-btn {
         width: 100%;
     }
+    
 }
+
+@media (max-width: 768px) {
+  .shop-section {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
