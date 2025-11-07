@@ -1,6 +1,6 @@
 // Product Data with placeholders for Stripe URLs
 const products = [
-    { id: '1', name: 'REBEL Oversized Hoodie', price: 100, image: 'images/generated_images/Black_hoodie_product_image_774f8777.png', category: 'hoodies', checkoutUrl: "https://buy.stripe.com/test_00weVe9Gcdx6dPjbEG6Na00" },
+    { id: '1', name: 'REBEL Oversized Hoodie', price: 1000, image: 'images/generated_images/Black_hoodie_product_image_774f8777.png', category: 'hoodies', checkoutUrl: "https://buy.stripe.com/test_3cI28s05CboYaD74ce6Na03" },
     { id: '2', name: 'CRIMSON Statement Hoodie', price: 94.99, image: 'images/generated_images/Red_hoodie_product_image_47c17143.png', category: 'hoodies', checkoutUrl: "PASTE_YOUR_STRIPE_LINK_HERE" },
     { id: '3', name: 'SHADOW Essential Hoodie', price: 84.99, image: 'images/generated_images/Gray_hoodie_product_image_edcb9f2a.png', category: 'hoodies', checkoutUrl: "PASTE_YOUR_STRIPE_LINK_HERE" },
     { id: '4', name: 'GHOST Minimalist Hoodie', price: 89.99, image: 'images/generated_images/White_hoodie_product_image_cfbb8ac5.png', category: 'hoodies', checkoutUrl: "PASTE_YOUR_STRIPE_LINK_HERE" },
