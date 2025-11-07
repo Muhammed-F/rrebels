@@ -193,6 +193,24 @@
         </div>
     </footer>
 
+    <!-- Size Selection Modal -->
+    <div id="sizeModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2 id="modalProductName" class="modal-product-name"></h2>
+            <p id="modalProductDescription" class="modal-product-description"></p>
+            <div class="size-selector">
+                <h3>Select Size:</h3>
+                <div class="size-options">
+                    <button class="size-btn" data-size="S">S</button>
+                    <button class="size-btn" data-size="M">M</button>
+                    <button class="size-btn" data-size="L">L</button>
+                </div>
+            </div>
+            <button id="modalBuyBtn" class="btn btn-primary modal-buy-btn" disabled>Buy Now</button>
+        </div>
+    </div>
+
     <script src="js/script.js"></script>
 </body>
 </html>
