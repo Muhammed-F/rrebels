@@ -8,7 +8,7 @@ const products = [
         category: 'hoodies',
         description: 'Premium oversized hoodie with bold graphics. Ultra-comfortable fabric perfect for street style.',
         checkoutUrls: {
-            S: "https://example.com/checkout?product=rebel-hoodie&size=S",
+            S: "https://buy.stripe.com/test_3cI28s05CboYaD74ce6Na03",
             M: "https://example.com/checkout?product=rebel-hoodie&size=M",
             L: "https://example.com/checkout?product=rebel-hoodie&size=L"
         }
