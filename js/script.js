@@ -3,14 +3,14 @@ const products = [
     { 
         id: '1', 
         name: 'REBEL Oversized Hoodie', 
-        price: 100, 
+        price: 1000, 
         image: 'images/generated_images/Black_hoodie_product_image_774f8777.png', 
         category: 'hoodies',
         description: 'Premium oversized hoodie with bold graphics. Ultra-comfortable fabric perfect for street style.',
         checkoutUrls: {
             S: "https://buy.stripe.com/test_3cI28s05CboYaD74ce6Na03",
-            M: "https://example.com/checkout?product=rebel-hoodie&size=M",
-            L: "https://example.com/checkout?product=rebel-hoodie&size=L"
+            M: "https://buy.stripe.com/test_3cI28s05CboYaD74ce6Na03",
+            L: "https://buy.stripe.com/test_3cI28s05CboYaD74ce6Na03",
         }
     },
     { 
